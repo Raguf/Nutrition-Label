@@ -1,0 +1,69 @@
+/* ---------- Main elements ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------- Main elements ---------- */
+
+/* ---------- Header elements start---------- */
+
+.label {
+  width: 270px;
+  margin: 20px auto;
+  padding: 0 7px;
+  border: 2px solid black;
+}
+
+header h1 {
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px;
+}
+
+.divider {
+  margin: 2px 0;
+  border-bottom: 1px solid #888898;
+}
+
+.bold {
+  font-weight: 800;
+}
+/* ---------- Header elements finish---------- */
+
+/* ---------- Main elements start---------- */
+
+.large {
+  height: 10px;
+}
+
+.large,
+.medium {
+  background-color: black;
+  border: 0;
+}
+
+.calories-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.small-text {
+  font-size: 0.85rem;
+}
+/* ---------- Main elements finish---------- */
