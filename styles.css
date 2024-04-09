@@ -43,9 +43,31 @@ header h1 {
 .bold {
   font-weight: 800;
 }
+
+/* ---------- Background-colors elements start---------- */
+
+.green {
+  background-color: #a0a398;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.percent {
+  background-color: #a68979;
+}
+
+.orange {
+  background-color: #dea875;
+}
 /* ---------- Header elements finish---------- */
 
 /* ---------- Main elements start---------- */
+
+.label {
+  background-color: #fff8b4;
+}
 
 .large {
   height: 10px;
